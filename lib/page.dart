@@ -13,6 +13,7 @@ class StartPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
+            width: 400,
             height: 300,
             decoration: const BoxDecoration(
                 image: DecorationImage(
