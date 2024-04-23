@@ -18,7 +18,7 @@ class _RegisterPageState extends State<RegisterPage> {
   }
 
   void _navigateToLogin(BuildContext context) {
-    Navigator.push(
+    Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (ctx) => const SignIN()));
   }
 
