@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:login_page/form.dart';
-import 'package:login_page/main.dart';
+
 import 'package:login_page/register_page.dart';
 
 class StartPage extends StatelessWidget {
   const StartPage({super.key});
-
-  // void _navigateToLogin(BuildContext context) {
-  //   Naviga
-  // }
 
   @override
   Widget build(BuildContext context) {
